@@ -29,8 +29,9 @@
 
 <div class="callout">
   <strong>Scrap to Stars does not collect any data.</strong> It has no accounts, no
-  analytics, no advertising, and no servers. The app does not request the Android
-  internet permission, so it is not technically capable of transmitting anything.
+  analytics, no advertising, and no servers of ours. The game itself never sends
+  anything anywhere — the only network access belongs to Google Play, so that
+  purchases work.
 </div>
 
 <h2>What we collect</h2>
@@ -94,9 +95,19 @@ is not directed specifically at children under 13 and is not part of Google
 Play's Designed for Families programme.</p>
 
 <h2>Permissions</h2>
-<p>The app requests no Android permissions at all. Not internet access, not
-storage, not location, not contacts, not the camera. You can verify this on the
-app's Play Store page under <em>App permissions</em>.</p>
+<p>The app requests three permissions, all of them belonging to Google Play's
+billing library rather than to the game:</p>
+<ul>
+  <li><code>com.android.vending.BILLING</code> — lets Google Play process a
+      purchase</li>
+  <li><code>INTERNET</code> and <code>ACCESS_NETWORK_STATE</code> — used by
+      Google Play to reach its own servers and check whether you are online</li>
+</ul>
+<p>The game does not use them. It has no networking code of its own, contacts no
+server of ours, and would work identically with the device in flight mode apart
+from the store. It asks for nothing else — no storage, no location, no contacts,
+no camera. You can check the full list on the app's Play Store page under
+<em>App permissions</em>.</p>
 
 <h2>Changes to this policy</h2>
 <p>If a future version of the app changes what it does with data, this page will
