@@ -95,19 +95,25 @@ is not directed specifically at children under 13 and is not part of Google
 Play's Designed for Families programme.</p>
 
 <h2>Permissions</h2>
-<p>The app requests three permissions, all of them belonging to Google Play's
-billing library rather than to the game:</p>
+<p>The app requests four permissions:</p>
 <ul>
   <li><code>com.android.vending.BILLING</code> — lets Google Play process a
       purchase</li>
   <li><code>INTERNET</code> and <code>ACCESS_NETWORK_STATE</code> — used by
       Google Play to reach its own servers and check whether you are online</li>
+  <li><code>POST_NOTIFICATIONS</code> — lets the app tell you when your offline
+      tank is full and your machines have stopped earning. It is the only
+      notification the app sends, it is scheduled on your own device, and you
+      can refuse the permission or turn it off later without losing anything
+      else</li>
 </ul>
-<p>The game does not use them. It has no networking code of its own, contacts no
-server of ours, and would work identically with the device in flight mode apart
-from the store. It asks for nothing else — no storage, no location, no contacts,
-no camera. You can check the full list on the app's Play Store page under
-<em>App permissions</em>.</p>
+<p>The first three belong to Google Play's billing library rather than to the
+game. The game has no networking code of its own, contacts no server of ours,
+and would work identically with the device in flight mode apart from the store.
+The notification is composed and scheduled entirely on your phone; nothing about
+it is sent anywhere. The app asks for nothing else — no storage, no location, no
+contacts, no camera. You can check the full list on the app's Play Store page
+under <em>App permissions</em>.</p>
 
 <h2>Changes to this policy</h2>
 <p>If a future version of the app changes what it does with data, this page will
@@ -116,7 +122,7 @@ noted in the app's release notes on Google Play.</p>
 
 <h2>Contact</h2>
 <p>Questions about this policy or the app can go to
-<a href="mailto:support@tbcore.dk">support@tbcore.dk</a>.</p>
+<a href="mailto:support@tbcore.eu">support@tbcore.eu</a>.</p>
 
 <footer><a href="../">All TBCore legal documents</a> &middot; Scrap to Stars is developed by
 TBCore. Package name <code>dk.scraptostars</code>.</footer>
