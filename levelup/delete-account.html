@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Delete your data — LevelUp</title>
+<style>
+  :root{color-scheme:light dark}
+  body{max-width:44rem;margin:0 auto;padding:2.5rem 1.25rem 4rem;
+       font:16px/1.65 -apple-system,"Segoe UI",Roboto,system-ui,sans-serif;
+       color:#1c1c1e;background:#fff}
+  @media (prefers-color-scheme:dark){body{color:#e8e6e3;background:#16181c}}
+  h1{font-size:1.75rem;line-height:1.25;margin:0 0 .25rem}
+  h2{font-size:1.1rem;margin:2rem 0 .5rem}
+  .meta{color:#6b6b70;font-size:.9rem;margin:0 0 2rem}
+  @media (prefers-color-scheme:dark){.meta{color:#9a9aa0}}
+  ul{padding-left:1.2rem} li{margin:.3rem 0}
+  ol{padding-left:1.2rem} ol li{margin:.4rem 0}
+  .callout{border-left:3px solid #c8952f;padding:.6rem 0 .6rem 1rem;margin:1.25rem 0;
+           background:rgba(200,149,47,.08)}
+  code{font-size:.9em;background:rgba(128,128,128,.15);padding:.1em .35em;border-radius:4px}
+  footer{margin-top:3rem;font-size:.9rem;color:#6b6b70}
+  @media (prefers-color-scheme:dark){footer{color:#9a9aa0}}
+</style>
+</head>
+<body>
+
+<h1>Delete your data</h1>
+<p class="meta">LevelUp &middot; TBCore &middot; Last updated 27 October 2026</p>
+
+<div class="callout">
+  <strong>Your training data is not with us.</strong> Workouts, records, photos and
+  GPS routes live only on your phone. The only thing we can hold is the optional
+  friends account (Google sign-in plus what you chose to share), and you can erase
+  all of it yourself, in the app or by e-mail.
+</div>
+
+<h2>What account do we have?</h2>
+<p>LevelUp, published by TBCore, has no account of its own. If you use the
+optional friends feature, you sign in with Google and the app creates a small
+cloud profile for you in Firebase: your display name and avatar, a friend code,
+the stats snapshot you chose to share and your friendships. If you never signed
+in, there is nothing of yours with us to delete.</p>
+
+<h2>To delete your account and cloud data in the app</h2>
+<ol>
+  <li>Open LevelUp and go to <em>Settings &rarr; Account &amp; friends</em>.</li>
+  <li>Tap <em>Delete account &amp; cloud data</em>.</li>
+  <li>Type <code>DELETE</code> to confirm. Google may ask you to confirm your
+      account once more.</li>
+</ol>
+<p>That removes everything below straight away and signs you out.</p>
+
+<h2>If you no longer have the app</h2>
+<p>Write to <a href="mailto:support@tbcore.eu">support@tbcore.eu</a> with the
+subject <em>Delete my LevelUp account</em>. Send it from the e-mail address of
+the Google account you signed in with, or include your friend code, so we can
+find the account. We delete it and confirm by reply, normally within a few days
+and at the latest within one month. You can also reinstall the app, sign in with
+the same Google account and delete it yourself as described above.</p>
+
+<h2>To switch off sharing without deleting your account</h2>
+<p>Turn off <em>Share my stats with friends</em> in the same settings block. Your
+shared snapshot is deleted from the cloud right away. <em>Sign out</em> stops
+everything on that phone.</p>
+
+<h2>To delete the data on your phone</h2>
+<p>Use <em>Settings &rarr; Reset all data</em>, or uninstall the app. Deleting your
+cloud account does <strong>not</strong> delete training data on the phone, and
+resetting the phone's data does not delete your cloud account, so do both if you
+want everything gone. Backup files you saved yourself, in
+<code>Documents/LevelUp</code> or elsewhere, are yours to delete.</p>
+
+<h2>What is deleted, and what is kept</h2>
+<ul>
+  <li><strong>Deleted:</strong> your friend profile (name, avatar, frame), your
+      friend code, your shared stats and workouts, every friendship and request
+      (so you also disappear from your friends' lists), and your sign-in record
+      in Firebase Authentication, including your Google e-mail address and
+      picture address stored there.</li>
+  <li><strong>Kept on your phone:</strong> your training data, until you erase
+      it yourself.</li>
+  <li><strong>Not ours to delete:</strong> your Google account itself, and any
+      technical logs Google keeps under its own policies, governed by the
+      <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.
+      Google may keep residual copies in its backups for a limited period.</li>
+</ul>
+<p>We keep no copy of a deleted account and no retention period of our own
+applies: once deleted, it is gone.</p>
+
+<footer><a href="../">All TBCore legal documents</a> &middot;
+<a href="privacy-policy.html">Privacy policy</a> &middot; LevelUp is
+developed by TBCore. Package name <code>dk.levelup.fitness</code>.</footer>
+
+</body>
+</html>

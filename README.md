@@ -1,6 +1,6 @@
 # Legal
 
-Privacy policies and terms for games made by TBCore.
+Privacy policies and terms for apps and games made by TBCore.
 
 Published with GitHub Pages, so every document has a permanent public URL that
 can be pasted straight into a Google Play listing.
@@ -8,6 +8,8 @@ can be pasted straight into a Google Play listing.
 ```
 index.html                              landing page, lists every game
 scrap-to-stars/privacy-policy.html      Scrap to Stars (dk.scraptostars)
+levelup/privacy-policy.html             LevelUp (dk.levelup.fitness)
+levelup/delete-account.html             LevelUp: how to delete your account and data
 ```
 
 ## Adding a game
